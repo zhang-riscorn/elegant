@@ -1,0 +1,9 @@
+<svg width="64.000000" height="64.000000" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="design-pencil" width="64.000000" height="64.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<path id="elegant" d="M27.12 8.87L8.87 27.12C8.31 27.68 8 28.44 8 29.24L8 53C8 54.65 9.34 56 11 56L34.75 56C35.55 56 36.31 55.68 36.87 55.12L55.12 36.87C55.68 36.31 56 35.55 56 34.75L56 11C56 9.34 54.65 8 53 8L29.24 8C28.44 8 27.68 8.31 27.12 8.87Z" fill="#2DE3B9" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="shape" d="M22.07 32.67C24.88 32.67 27.15 34.98 27.15 37.83C27.15 40.68 24.88 43 22.07 43C19.27 43 17 40.68 17 37.83C17 34.98 19.27 32.67 22.07 32.67ZM24.38 28.45C25.18 25.66 26.91 23.4 29.13 21.92C31.52 20.32 34.28 19.75 36.91 20.09C39.75 20.45 42.22 21.84 44 23.84C45.92 25.99 46.91 28.67 47 31.37" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linecap="round"/>
+</svg>

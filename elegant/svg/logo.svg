@@ -1,0 +1,8 @@
+<svg width="64.000000" height="64.000000" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="logo" width="64.000000" height="64.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<path id="logo" d="M27.12 8.87L8.87 27.12C8.31 27.68 8 28.44 8 29.24L8 53C8 54.65 9.34 56 11 56L34.75 56C35.55 56 36.31 55.68 36.87 55.12L55.12 36.87C55.68 36.31 56 35.55 56 34.75L56 11C56 9.34 54.65 8 53 8L29.24 8C28.44 8 27.68 8.31 27.12 8.87Z" fill="#409FFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>

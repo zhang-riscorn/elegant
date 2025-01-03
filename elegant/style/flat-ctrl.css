@@ -1,0 +1,13 @@
+
+.flat-ctrl:hover,.flat-ctrl:focus-visible{
+    background:transparent;
+    outline:none;
+    box-shadow: 0 0 var(--shadow-width) var(--bg-box-shadow);
+}
+.flat-ctrl:active:hover,.flat-ctrl[clicked]:hover{
+    background-color: var(--bg-hover);
+}
+.flat-ctrl[checked]{
+    box-shadow: 0 0 var(--shadow-width) var(--theme-color);
+    background:var(--bg-flat-button-checked);
+}

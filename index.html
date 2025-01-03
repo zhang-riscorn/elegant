@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <script src="elegant/quick/quick.js"></script>
+    <script src="elegant/elements/elegant-elements.js"></script>
+    <link href="elegant/style/elegant.css" rel="stylesheet">
+    <script defer src="index.js" type="module"></script>
+    <title>设计</title>
+</head>
+<body>
+    <header>
+        <div class="toolbar-item">
+            <img class="shaped" shaped-color="red" src="elegant/svg/file-pather.svg">
+        </div>
+    </header>
+    <aside class="aside-left">
+        <action-ctrl checkable class="flat-ctrl toolbar-item">
+            <img class="shaped" src="elegant/svg/file-pather.svg">
+        </action-ctrl>
+        <action-ctrl checkable class="flat-ctrl toolbar-item">
+            <img class="shaped" src="elegant/svg/struct.svg">
+        </action-ctrl>
+        <action-ctrl checkable class="flat-ctrl toolbar-item">
+            <img class="shaped" src="elegant/svg/option.svg">
+        </action-ctrl>
+        <div class="flex-spacer"></div>
+        <action-ctrl checkable class="flat-ctrl toolbar-item">
+            <img class="shaped" src="elegant/svg/terminal.svg">
+        </action-ctrl>
+    </aside>
+    <main>
+        <action-label style="display: grid;background: red">
+            <action-ctrl class="checkbox" checkable></action-ctrl>
+        </action-label>
+    </main>
+    <aside class="aside-right"></aside>
+    <footer>
+        <div class="flex-spacer"></div>
+    </footer>
+</body>
+</html>

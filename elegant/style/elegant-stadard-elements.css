@@ -1,0 +1,10 @@
+span{
+    white-space: nowrap;
+}
+input,button{
+    font-size: inherit;
+    border:none;
+    background: none;
+    margin: 0;
+    appearance: none;
+}

@@ -1,0 +1,12 @@
+button,input[type=submit],input[type=reset],input[type=button]{
+    display: inline-grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    border-radius: var(--border-radius);
+
+    box-sizing: border-box;
+    position: relative;
+}

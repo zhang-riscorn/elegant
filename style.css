@@ -1,0 +1,14 @@
+.same-width{
+    width: 0.5em;
+    display: inline-flex;
+    justify-content: center;
+}
+sw-{
+    width: 1em;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    /*display: inline-flex;*/
+    /*justify-content: center;*/
+    align-items: center;
+}

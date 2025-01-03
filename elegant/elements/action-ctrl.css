@@ -1,0 +1,23 @@
+
+action-ctrl{
+    display: inline-grid;
+    grid-auto-flow: column;
+    align-items: center;
+
+    overflow: hidden;
+    border-radius: var(--border-radius);
+
+    box-sizing: border-box;
+
+    position: relative;
+
+}
+action-ctrl:focus{
+    outline: none;
+}
+/*action-ctrl:hover {*/
+/*    background-color:var(--bg-hover);*/
+/*}*/
+/*action-ctrl:active{*/
+/*    background-color: var(--bg-active);*/
+/*}*/

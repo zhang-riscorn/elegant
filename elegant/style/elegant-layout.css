@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+    background: var(--bg);
+    color: var(--fg);
+    user-select: none;
+}
+*{
+    -webkit-user-drag:none;
+}
+body{
+    margin: 0;
+    height: 100%;
+
+    display: grid;
+    grid-template-areas:'header header header'
+                        'aside-left main aside-right'
+                        'footer footer footer';
+
+    grid-template-rows: max-content auto max-content;
+    grid-template-columns: max-content auto max-content;
+
+    background:var(--bg-toolbar)
+}
+header,footer,body>aside
+    /*边栏样式*/
+{
+    display: flex;
+    align-items: center;
+    gap:var(--sidebar-padding);
+    /*排列方式*/
+    padding:var(--sidebar-padding);
+    /*增加边栏更美观*/
+}
+header{
+    grid-area: header;
+
+    flex-direction: row;
+
+    height: var(--toolbar-item-size);
+}
+footer{
+    grid-area: footer;
+
+    padding: var(--sidebar-padding) calc(2*var(--sidebar-padding));
+    flex-direction: row;
+}
+aside{
+    width: var(--toolbar-item-size);
+}
+.aside-left{
+    grid-area:aside-left;
+
+    flex-direction: column;
+}
+.aside-right{
+    grid-area:aside-right;
+
+    flex-direction: column;
+}
+
+main{
+    background: var(--bg-container);
+    /*border:var(--border) solid var(--gray-border);*/
+}
