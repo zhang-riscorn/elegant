@@ -1,5 +1,3 @@
-var required_elements={};
-
 function load_element(element){
     if(typeof element !== 'string'){
         throw new Error("Element must be a string.");

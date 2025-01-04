@@ -7,16 +7,11 @@ class ActionLabelElement extends HTMLElement {
         this.addEventListener("mouseover",this.mouseover_eventer);
     }
     click_eventer(e){
-        const target=this.get_targeted_element();
-        target.click();
-    }
-    mouseover_eventer(e) {
-        const target=this.get_targeted_element();
-        console.log(target);
-        target.dispatchEvent(new CustomEvent("mouseover",{
-            bubbles: true,
-            cancelable: true
-        }));
+        console.log(e.target.InputElementFlag,ActionLabelElement.name);
+        if(!e.target.InputElementFlag){
+            const target = this.get_targeted_element();
+            target.click();
+        }
     }
     get_targeted_element() {
         for(const i of this.children){

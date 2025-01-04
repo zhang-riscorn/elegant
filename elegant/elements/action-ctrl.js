@@ -1,5 +1,6 @@
 class ActionCtrlElement extends HTMLElement{
     static observedAttributes = ["clicked", "checkable"];
+    InputElementFlag=true;
     constructor() {
         // 必须首先调用 super 方法
         super();
@@ -10,8 +11,8 @@ class ActionCtrlElement extends HTMLElement{
         this.addEventListener('keydown', this.css_click_keydown);
         this.addEventListener('keyup', this.css_click_keyup);
         this.addEventListener('click', this.click_eventer);
-        this.addEventListener("mouseover",()=>{console.log("over")});
-        this.addEventListener("mouseleave",()=>{console.log("leave")});
+        this.addEventListener("mouseover",()=>{this.hover=true;});
+        this.addEventListener("mouseleave",()=>{this.hover=false;});
     }
     css_click_keydown(e){
         if(e.keyCode === 32) {
