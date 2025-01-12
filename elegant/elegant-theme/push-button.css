@@ -13,20 +13,13 @@
     background-color:var(--outshoot-meet-bg);
     outline:none;
 }
-.push-button:active:hover{
+.push-button:active:hover,.push-button[clicked]{
     background-color: var(--outshoot-active-bg);
 }
-
-.push-button.serious{
-    color:var(--serious-color)
+.push-button:focus-visible{
+    box-shadow: 0 0 var(--shadow-width) var(--theme-color);
 }
-.push-button.serious:hover,.push-button.serious:focus-visible{
-    background-color:var(--outshoot-serious-meet-bg);
-}
-.push-button.serious:active:hover{
-    background-color: var(--outshoot-serious-active-bg);
-}
-
+/*default*/
 .push-button.default{
     color:var(--default-fg);
     background:var(--outshoot-default-bg);
@@ -34,6 +27,22 @@
 .push-button.default:hover,.push-button.default:focus-visible{
     background-color:var(--outshoot-default-meet-bg);
 }
-.push-button.default:active:hover{
+.push-button.default:active:hover,.push-button.default[clicked]{
     background-color: var(--outshoot-default-active-bg);
+}
+.push-button.default:focus-visible{
+    box-shadow: 0 0 var(--shadow-width) var(--default-color);
+}
+/*serious*/
+.push-button.serious{
+    color:var(--serious-color)
+}
+.push-button.serious:hover,.push-button.serious:focus-visible{
+    background-color:var(--outshoot-serious-meet-bg);
+}
+.push-button.serious:active:hover,.push-button.serious[clicked]{
+    background-color: var(--outshoot-serious-active-bg);
+}
+.push-button.serious:focus-visible{
+    box-shadow: 0 0 var(--shadow-width) var(--serious-color);
 }
