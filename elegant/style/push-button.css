@@ -1,0 +1,4 @@
+.push-button{
+    background-color: var(--outshoot-bg);
+    padding:var(--outshoot-padding);
+}

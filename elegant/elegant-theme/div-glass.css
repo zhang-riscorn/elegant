@@ -1,0 +1,5 @@
+.glass{
+    background:var(--glass-bg);
+    border-radius:var(--border-radius);
+    backdrop-filter: blur(var(--glass-blur));
+}

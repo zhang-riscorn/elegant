@@ -1,0 +1,16 @@
+.toolbar-item{
+    width:var(--toolbar-item-size);
+    height:var(--toolbar-item-size);
+}
+.footer-item{
+    width:var(--footer-item-size);
+    height:var(--footer-item-size);
+}
+.toolbar-item,.footer-item{
+    padding: var(--toolbar-item-padding);
+    box-sizing: border-box;
+}
+.toolbar-item>img,.footer-icon>img{
+    height:100%;
+    width:100%;
+}

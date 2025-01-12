@@ -1,0 +1,58 @@
+
+:root {
+    --bg: #ffffff;
+    --fg: #000000;
+
+}
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        --bg: #080808;
+        --fg: #ffffff;
+    }
+}
+:root{
+    --theme-color:#409fff;
+    --theme-color: green;
+
+    --toolbar-bg:var(--bg);
+    --container-bg:color-mix(in srgb,var(--fg) 6%,var(--bg));
+    --boxshadow-bg:color-mix(in srgb,var(--fg) 25%,var(--bg));
+
+    --outshoot-bg:color-mix(in srgb,0% var(--bg),transparent);
+
+    --outshoot-default-bg:var(--theme-color);
+
+    --default-color:var(--theme-color);
+    --serious-color:red;
+
+    --default-fg:white;
+}
+:root{
+    --outshoot-meet-bg:color-mix(in srgb,10% var(--theme-color),var(--outshoot-bg));
+    --outshoot-active-bg:color-mix(in srgb,25% var(--theme-color),var(--outshoot-bg));
+
+    --outshoot-serious-meet-bg:color-mix(in srgb,10% var(--serious-color),var(--outshoot-bg));
+    --outshoot-serious-active-bg:color-mix(in srgb,25% var(--serious-color),var(--outshoot-bg));
+
+    --outshoot-default-meet-bg:color-mix(in srgb,20% var(--default-fg),var(--outshoot-default-bg));
+    --outshoot-default-active-bg:color-mix(in srgb,50% var(--default-fg),var(--outshoot-default-bg));
+
+
+    --boxshadow-active-bg:color-mix(in srgb,50% var(--theme-color),transparent);
+
+    --ctrl-bg:var(--bg);
+    --ctrl-button-hover-bg:color-mix(in srgb,10% var(--theme-color),var(--outshoot-bg));
+    --ctrl-button-active-bg:color-mix(in srgb,20% var(--theme-color),var(--outshoot-bg));
+
+
+    --box-shadow-active-bg:var(--theme-color);
+
+    --signer-bg:color-mix(in srgb,5% var(--fg),var(--bg));
+    --signer-hover-bg:color-mix(in srgb,2.5% var(--fg),var(--bg));
+    --signer-active-bg:var(--theme-color);
+    --signer-active-hover-bg:color-mix(in srgb,30% var(--theme-color),var(--outshoot-bg));
+
+    --flat-checked-bg:color-mix(in srgb,15% var(--theme-color),var(--outshoot-bg));
+
+    --glass-bg:color-mix(in srgb,50% var(--bg),transparent);
+}
