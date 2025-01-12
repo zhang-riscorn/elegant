@@ -1,4 +1,4 @@
 .shaped {
     transform: translateX(-150vh);
-    filter:drop-shadow(150vh 0 var(--fg-icon));
+    filter:drop-shadow(150vh 0 var(--fg));
 }

@@ -5,7 +5,10 @@
     border-radius: 1em;
     width:2em;
     padding:0.125em;
-    background:var(--checkstate-bg);
+    background:var(--signer-bg);
+}
+.checkbox[checked]{
+    box-shadow: none;
 }
 .checkbox::before {
     content:"";
@@ -16,11 +19,10 @@
     background:var(--bg);
     transition: all 0.125s ease-in-out;
 }
-.checkbox:hover::before,.checkbox:focus-visible::before{
-    box-shadow:0 0 var(--shadow-width) var(--bg-box-shadow);
+.checkbox:hover{
+    backdrop-filter: blur(1em);
 }
 .checkbox[checked]:hover::before,.checkbox[checked]:focus-visible::before{
-    background:var(--checkstate-checked-hover-bg);
     box-shadow:none;
 }
 .checkbox:active::before,.checkbox[clicked]::before{
@@ -33,5 +35,5 @@
 }
 .checkbox[checked]{
     transition: 0.25s;
-    background:var(--checkstate-checked-bg);
+    background:var(--signer-active-bg);
 }

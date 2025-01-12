@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh" xmlns="">
 <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet">
     <script src="elegant/quick/quick.js"></script>
     <script src="elegant/elements/elegant-elements.js"></script>
     <link href="elegant/style/elegant.css" rel="stylesheet">
+    <link href="elegant/elegant-theme/theme.css" rel="stylesheet" id="theme-link">
     <script defer src="index.js" type="module"></script>
     <title>设计</title>
 </head>
@@ -31,10 +32,22 @@
         </action-ctrl>
     </aside>
     <main>
-        <action-label style="display: grid;background: red">
-            <action-ctrl class="checkbox" checkable></action-ctrl>
-            <action-ctrl class="checkbox" checkable></action-ctrl>
-        </action-label>
+
+        <div style="height:100%;width:100%;background-image:var(--beautiful-background-image-example);padding:1em;gap:1em;">
+            <div class="glass" style="
+            position:absolute;top:25%;left:25%;width:50%;height:50%;
+            padding:5%;
+            display:flex;flex-direction: column">
+                <div class="flex-spacer">
+                </div>
+                <div style="display:grid;grid-auto-flow: column;grid-auto-columns: 25%">
+                    <action-ctrl class="push-button default">OK</action-ctrl>
+                    <action-ctrl class="push-button">Cancel</action-ctrl>
+                    <action-ctrl class="push-button">Apply</action-ctrl>
+                    <action-ctrl class="serious push-button">Reset</action-ctrl>
+                <div>
+            </div>
+        </div>
     </main>
     <aside class="aside-right"></aside>
     <footer>

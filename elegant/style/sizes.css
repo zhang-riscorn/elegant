@@ -1,0 +1,30 @@
+:root{
+    --size:1em;
+/*布局参数*/
+    --toolbar-item-size:2.5em;
+    --footer-item-size:1.5em;
+
+    --sidebar-padding:0.5em;
+
+    --toolbar-width:calc(2*var(--sidebar-padding) + var(--toolbar-item-size));
+    --footer-width:calc(2*var(--sidebar-padding) + var(--footer-item-size));
+
+    --toolbar-item-padding:0.125em;
+
+    --toolbar-gap:0;
+/*控件参数*/
+    --border:0.015625em;
+    --border-radius: 1em;
+
+    --shadow-width:0.25em;
+
+    --outshoot-shadow-width:0.5em;
+
+    --outshoot-padding:0.5em 1em;
+
+    --signer-size:1em;
+    --signer-length:2em;
+    --signer-border-radius:0.5em;
+
+    --glass-blur:1em;
+}

@@ -1,0 +1,13 @@
+*:focus{
+    outline:none;
+}
+span{
+    white-space: nowrap;
+}
+input,button{
+    font-size: inherit;
+    margin: 0;
+    border:none;
+    /*background: none;*/
+    /*appearance: none;*/
+}

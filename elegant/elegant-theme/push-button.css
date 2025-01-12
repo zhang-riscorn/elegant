@@ -1,0 +1,39 @@
+
+.push-button{
+    border-radius: var(--border-radius);
+    background-color: var(--outshoot-bg);
+    color:var(--theme-color);
+    margin:0.25em;
+
+    backdrop-filter: blur(1em);
+    justify-content: center;
+    transition: background-color 0.125s ease;
+}
+.push-button:hover,.push-button:focus-visible{
+    background-color:var(--outshoot-meet-bg);
+    outline:none;
+}
+.push-button:active:hover{
+    background-color: var(--outshoot-active-bg);
+}
+
+.push-button.serious{
+    color:var(--serious-color)
+}
+.push-button.serious:hover,.push-button.serious:focus-visible{
+    background-color:var(--outshoot-serious-meet-bg);
+}
+.push-button.serious:active:hover{
+    background-color: var(--outshoot-serious-active-bg);
+}
+
+.push-button.default{
+    color:var(--default-fg);
+    background:var(--outshoot-default-bg);
+}
+.push-button.default:hover,.push-button.default:focus-visible{
+    background-color:var(--outshoot-default-meet-bg);
+}
+.push-button.default:active:hover{
+    background-color: var(--outshoot-default-active-bg);
+}

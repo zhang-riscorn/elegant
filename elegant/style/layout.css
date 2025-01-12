@@ -19,7 +19,7 @@ body{
     grid-template-rows: max-content auto max-content;
     grid-template-columns: max-content auto max-content;
 
-    background:var(--bg-toolbar)
+    background:var(--toolbar-bg)
 }
 header,footer,body>aside
     /*边栏样式*/
@@ -59,6 +59,6 @@ aside{
 }
 
 main{
-    background: var(--bg-container);
+    background: var(--container-bg);
     /*border:var(--border) solid var(--gray-border);*/
 }
